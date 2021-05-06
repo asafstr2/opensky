@@ -12,8 +12,9 @@ app.use(cors());
 //   res.send("gooooooood");
 // });
 const __dirname = path.resolve();
-app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, './frontend/build/index.html'))
+app.get('/', (req, res) =>{
+  res.sendFile('frontend/build/index1.html' , { root : __dirname});
+}
 );
 
 app.post('/api/form', (req, res) => {
