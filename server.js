@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("gooooooood");
+  res.send("gooooooood!!!!!");
 });
 // const __dirname = path.resolve();
 
