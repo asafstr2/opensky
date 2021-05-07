@@ -1,1 +1,1 @@
-web: node server.js
+web: npm start --prefix frontend node server.js
